@@ -1,29 +1,32 @@
 {
   "expo": {
-    "name": "SoulBangsApp",
-    "slug": "SoulBangsApp",
-    "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
-    "newArchEnabled": true,
-    "splash": {
-      "image": "./assets/splash-icon.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
+    "slug": "soulbangsapp",
     "ios": {
       "supportsTablet": true
     },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      },
-      "edgeToEdgeEnabled": true
+        "backgroundColor": "#0B0F19",
+        "foregroundImage": "./assets/icon.png"
+      }
     },
+    "name": "SoulBangsApp",
     "web": {
-      "favicon": "./assets/favicon.png"
-    }
+      "bundler": "metro"
+    },
+    "splash": {
+      "backgroundColor": "#0B0F19",
+      "resizeMode": "contain",
+      "image": "./assets/splash.png"
+    },
+    "plugins": [
+      "expo-font"
+    ]
   }
 }
